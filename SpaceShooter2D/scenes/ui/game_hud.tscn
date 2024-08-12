@@ -1,0 +1,82 @@
+[gd_scene load_steps=8 format=3 uid="uid://cufrvln2qff87"]
+
+[ext_resource type="Script" path="res://scripts/Hud.cs" id="1_wyvpu"]
+[ext_resource type="FontFile" uid="uid://dyu46dajohxaa" path="res://assets/fonts/PressStart2P-vaV7.ttf" id="2_b8wp0"]
+[ext_resource type="Texture2D" uid="uid://cgdvmh0hslj2" path="res://assets/textures/bonus_progress_bar_under.png" id="3_0kxsp"]
+[ext_resource type="Texture2D" uid="uid://c3ki68xxtyedw" path="res://assets/textures/bonus_progress_bar.png" id="4_brm5v"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_8f6wc"]
+font = ExtResource("2_b8wp0")
+font_size = 20
+
+[sub_resource type="LabelSettings" id="LabelSettings_1b1cf"]
+font = ExtResource("2_b8wp0")
+font_size = 20
+
+[sub_resource type="LabelSettings" id="LabelSettings_ebt0i"]
+font = ExtResource("2_b8wp0")
+font_size = 20
+font_color = Color(1, 0, 0, 1)
+
+[node name="HUD" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_wyvpu")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_bottom = 36.0
+grow_horizontal = 2
+color = Color(0, 0, 0, 1)
+
+[node name="Score" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -150.0
+offset_top = 3.0
+offset_right = 150.0
+offset_bottom = 33.0
+grow_horizontal = 2
+text = "SCORE:
+"
+label_settings = SubResource("LabelSettings_8f6wc")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Health_Label" type="Label" parent="."]
+layout_mode = 1
+offset_left = 10.0
+offset_top = 3.0
+offset_right = 70.0
+offset_bottom = 33.0
+text = "HP:"
+label_settings = SubResource("LabelSettings_1b1cf")
+vertical_alignment = 1
+
+[node name="Health" type="Label" parent="."]
+layout_mode = 0
+offset_left = 70.0
+offset_top = 3.0
+offset_right = 260.0
+offset_bottom = 33.0
+text = "hp"
+label_settings = SubResource("LabelSettings_ebt0i")
+vertical_alignment = 1
+
+[node name="BonusProgressBar" type="TextureProgressBar" parent="."]
+layout_mode = 0
+offset_left = 693.0
+offset_top = 7.0
+offset_right = 893.0
+offset_bottom = 35.0
+scale = Vector2(0.75, 0.75)
+texture_under = ExtResource("3_0kxsp")
+texture_progress = ExtResource("4_brm5v")

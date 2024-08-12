@@ -1,0 +1,47 @@
+[gd_scene load_steps=6 format=3 uid="uid://dfvdkg7err6ns"]
+
+[ext_resource type="PackedScene" uid="uid://cjgycdhdkiits" path="res://scenes/enemy/enemy.tscn" id="1_g1ryd"]
+[ext_resource type="Script" path="res://scripts/Fighter.cs" id="2_o7q2w"]
+[ext_resource type="Texture2D" uid="uid://b6ql2wwlx3x7" path="res://assets/textures/fighter_1.png" id="3_3lg8r"]
+[ext_resource type="Texture2D" uid="uid://dxbplpg1vw165" path="res://assets/textures/fighter_1_hurt.png" id="4_eacwe"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_ux4bu"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("3_3lg8r")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("4_eacwe")
+}],
+"loop": true,
+"name": &"hurt",
+"speed": 5.0
+}]
+
+[node name="Fighter" instance=ExtResource("1_g1ryd")]
+script = ExtResource("2_o7q2w")
+
+[node name="AnimatedSprite2D" parent="." index="0"]
+scale = Vector2(0.75, 0.75)
+sprite_frames = SubResource("SpriteFrames_ux4bu")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Hitbox" index="0"]
+position = Vector2(0, 1)
+scale = Vector2(1, 0.9)
+polygon = PackedVector2Array(-25, -27.7778, -4, -31.1111, 4, -31.1111, 25, -27.7778, 25, 2.22222, 19, 8.88889, 11, 8.88889, 4, 28.8889, -4, 28.8889, -11, 8.88889, -19, 8.88889, -25, 1.11111)
+
+[node name="VisibleOnScreenNotifier2D" parent="." index="2"]
+position = Vector2(0, -35)
+rect = Rect2(-10, -10, 20, 10)
+
+[node name="SpeedComponent" parent="." index="3"]
+MaxSpeed = 1.5
+
+[node name="HealthComponent" parent="." index="4"]
+MaxHealth = 2.0

@@ -1,0 +1,25 @@
+[gd_scene load_steps=5 format=3 uid="uid://cjgycdhdkiits"]
+
+[ext_resource type="PackedScene" uid="uid://c53x67oteexha" path="res://scenes/entity.tscn" id="1_3vnsp"]
+[ext_resource type="Script" path="res://scripts/Enemy.cs" id="2_c012o"]
+[ext_resource type="Script" path="res://scripts/Hitbox.cs" id="3_dlh1y"]
+[ext_resource type="PackedScene" uid="uid://bee23y5k5b0d4" path="res://scenes/components/health_component.tscn" id="4_d6toh"]
+
+[node name="Enemy" instance=ExtResource("1_3vnsp")]
+collision_layer = 2
+collision_mask = 5
+motion_mode = 1
+script = ExtResource("2_c012o")
+Points = 100.0
+Penalty = -10.0
+Damage = 1.0
+
+[node name="Hitbox" parent="." index="1"]
+collision_layer = 2
+collision_mask = 5
+script = ExtResource("3_dlh1y")
+
+[node name="HealthComponent" parent="." index="4" instance=ExtResource("4_d6toh")]
+
+[connection signal="area_entered" from="Hitbox" to="." method="OnHitboxAreaEntered"]
+[connection signal="screen_exited" from="VisibleOnScreenNotifier2D" to="." method="OnVisibleOnScreenNotifier2dScreenExited"]

@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://boxeblos8httd"]
+
+[ext_resource type="Script" path="res://scripts/Tools/SerialCommunicator.cs" id="1_2kgxq"]
+
+[node name="SerialCommunicator" type="Node"]
+script = ExtResource("1_2kgxq")

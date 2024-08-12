@@ -1,0 +1,116 @@
+[gd_scene load_steps=6 format=3 uid="uid://h0jij0i7sg4y"]
+
+[ext_resource type="Script" path="res://scripts/GameOverScreen.cs" id="1_dibr0"]
+[ext_resource type="FontFile" uid="uid://dyu46dajohxaa" path="res://assets/fonts/PressStart2P-vaV7.ttf" id="2_jgj4a"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_8su4e"]
+bg_color = Color(0.490196, 0, 0.0784314, 1)
+border_width_left = 10
+border_width_top = 10
+border_width_right = 10
+border_width_bottom = 10
+border_color = Color(0.294118, 0, 0, 1)
+
+[sub_resource type="LabelSettings" id="LabelSettings_vusgs"]
+line_spacing = 2.0
+font = ExtResource("2_jgj4a")
+font_size = 50
+
+[sub_resource type="LabelSettings" id="LabelSettings_msf12"]
+font = ExtResource("2_jgj4a")
+font_size = 24
+
+[node name="GameOverScreen" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_dibr0")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 0.490196)
+
+[node name="Panel" type="Panel" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -250.0
+offset_top = -175.0
+offset_right = 250.0
+offset_bottom = 175.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_8su4e")
+
+[node name="MarginContainer" type="MarginContainer" parent="Panel"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -220.0
+offset_top = -145.0
+offset_right = 220.0
+offset_bottom = 145.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Panel/MarginContainer"]
+layout_mode = 2
+theme_override_constants/separation = 30
+
+[node name="GameOver" type="Label" parent="Panel/MarginContainer/VBoxContainer"]
+layout_mode = 2
+text = "GAME OVER"
+label_settings = SubResource("LabelSettings_vusgs")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="HighScore" type="Label" parent="Panel/MarginContainer/VBoxContainer"]
+layout_mode = 2
+text = "HI-SCORE"
+label_settings = SubResource("LabelSettings_msf12")
+vertical_alignment = 1
+
+[node name="Score" type="Label" parent="Panel/MarginContainer/VBoxContainer"]
+layout_mode = 2
+text = "SCORE"
+label_settings = SubResource("LabelSettings_msf12")
+vertical_alignment = 1
+
+[node name="Seperator" type="Control" parent="Panel/MarginContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="Panel/MarginContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_constants/separation = 10
+
+[node name="Restart_Button" type="Button" parent="Panel/MarginContainer/VBoxContainer/HBoxContainer"]
+custom_minimum_size = Vector2(150, 75)
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_jgj4a")
+theme_override_font_sizes/font_size = 20
+text = "RETRY"
+
+[node name="Seperator3" type="Control" parent="Panel/MarginContainer/VBoxContainer/HBoxContainer"]
+custom_minimum_size = Vector2(85, 0)
+layout_mode = 2
+
+[node name="Menu_Button" type="Button" parent="Panel/MarginContainer/VBoxContainer/HBoxContainer"]
+custom_minimum_size = Vector2(200, 75)
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_jgj4a")
+theme_override_font_sizes/font_size = 20
+text = "MAIN MENU"

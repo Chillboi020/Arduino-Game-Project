@@ -1,0 +1,29 @@
+[gd_scene load_steps=5 format=3 uid="uid://c0ks4yrte7j6r"]
+
+[ext_resource type="Script" path="res://scripts/LaserProjectile.cs" id="1_dvr2c"]
+[ext_resource type="Texture2D" uid="uid://2kdskdgjly3i" path="res://assets/textures/player_laser_projectile.png" id="2_wlx11"]
+[ext_resource type="PackedScene" uid="uid://bqikh0xt4qbv4" path="res://scenes/components/speed_component.tscn" id="3_obiuy"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_xveu1"]
+size = Vector2(8, 30)
+
+[node name="LaserProjectile" type="Area2D"]
+collision_layer = 4
+collision_mask = 2
+script = ExtResource("1_dvr2c")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(0.75, 0.75)
+texture = ExtResource("2_wlx11")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_xveu1")
+
+[node name="VisibleOnScreenNotifier2D" type="VisibleOnScreenNotifier2D" parent="."]
+position = Vector2(0, 35)
+scale = Vector2(0.7, 0.25)
+
+[node name="SpeedComponent" parent="." instance=ExtResource("3_obiuy")]
+MaxSpeed = 10.0
+
+[connection signal="screen_exited" from="VisibleOnScreenNotifier2D" to="." method="OnVisibleOnScreenNotifier2dScreenExited"]

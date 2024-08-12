@@ -1,0 +1,50 @@
+H:\11b\Arduino\Projekt\Arduino Projekt\SpaceShooter2D\.godot\mono\temp\obj\Debug\SpaceShooter2D.csproj.AssemblyReference.cache
+H:\11b\Arduino\Projekt\Arduino Projekt\SpaceShooter2D\.godot\mono\temp\obj\Debug\SpaceShooter2D.GeneratedMSBuildEditorConfig.editorconfig
+H:\11b\Arduino\Projekt\Arduino Projekt\SpaceShooter2D\.godot\mono\temp\obj\Debug\SpaceShooter2D.AssemblyInfoInputs.cache
+H:\11b\Arduino\Projekt\Arduino Projekt\SpaceShooter2D\.godot\mono\temp\obj\Debug\SpaceShooter2D.AssemblyInfo.cs
+H:\11b\Arduino\Projekt\Arduino Projekt\SpaceShooter2D\.godot\mono\temp\obj\Debug\SpaceShooter2D.csproj.CoreCompileInputs.cache
+H:\11b\Arduino\Projekt\Arduino Projekt\SpaceShooter2D\.godot\mono\temp\bin\Debug\SpaceShooter2D.deps.json
+H:\11b\Arduino\Projekt\Arduino Projekt\SpaceShooter2D\.godot\mono\temp\bin\Debug\SpaceShooter2D.runtimeconfig.json
+H:\11b\Arduino\Projekt\Arduino Projekt\SpaceShooter2D\.godot\mono\temp\bin\Debug\SpaceShooter2D.dll
+H:\11b\Arduino\Projekt\Arduino Projekt\SpaceShooter2D\.godot\mono\temp\bin\Debug\SpaceShooter2D.pdb
+H:\11b\Arduino\Projekt\Arduino Projekt\SpaceShooter2D\.godot\mono\temp\bin\Debug\GodotSharp.dll
+H:\11b\Arduino\Projekt\Arduino Projekt\SpaceShooter2D\.godot\mono\temp\bin\Debug\GodotSharpEditor.dll
+H:\11b\Arduino\Projekt\Arduino Projekt\SpaceShooter2D\.godot\mono\temp\bin\Debug\System.IO.Ports.dll
+H:\11b\Arduino\Projekt\Arduino Projekt\SpaceShooter2D\.godot\mono\temp\bin\Debug\runtimes\linux-arm\native\libSystem.IO.Ports.Native.so
+H:\11b\Arduino\Projekt\Arduino Projekt\SpaceShooter2D\.godot\mono\temp\bin\Debug\runtimes\linux-arm64\native\libSystem.IO.Ports.Native.so
+H:\11b\Arduino\Projekt\Arduino Projekt\SpaceShooter2D\.godot\mono\temp\bin\Debug\runtimes\linux-x64\native\libSystem.IO.Ports.Native.so
+H:\11b\Arduino\Projekt\Arduino Projekt\SpaceShooter2D\.godot\mono\temp\bin\Debug\runtimes\osx-arm64\native\libSystem.IO.Ports.Native.dylib
+H:\11b\Arduino\Projekt\Arduino Projekt\SpaceShooter2D\.godot\mono\temp\bin\Debug\runtimes\osx-x64\native\libSystem.IO.Ports.Native.dylib
+H:\11b\Arduino\Projekt\Arduino Projekt\SpaceShooter2D\.godot\mono\temp\bin\Debug\runtimes\unix\lib\net6.0\System.IO.Ports.dll
+H:\11b\Arduino\Projekt\Arduino Projekt\SpaceShooter2D\.godot\mono\temp\bin\Debug\runtimes\win\lib\net6.0\System.IO.Ports.dll
+H:\11b\Arduino\Projekt\Arduino Projekt\SpaceShooter2D\.godot\mono\temp\obj\Debug\SpaceShooter2D.csproj.CopyComplete
+H:\11b\Arduino\Projekt\Arduino Projekt\SpaceShooter2D\.godot\mono\temp\obj\Debug\SpaceShooter2D.dll
+H:\11b\Arduino\Projekt\Arduino Projekt\SpaceShooter2D\.godot\mono\temp\obj\Debug\refint\SpaceShooter2D.dll
+H:\11b\Arduino\Projekt\Arduino Projekt\SpaceShooter2D\.godot\mono\temp\obj\Debug\SpaceShooter2D.pdb
+H:\11b\Arduino\Projekt\Arduino Projekt\SpaceShooter2D\.godot\mono\temp\obj\Debug\SpaceShooter2D.genruntimeconfig.cache
+H:\11b\Arduino\Projekt\Arduino Projekt\SpaceShooter2D\.godot\mono\temp\obj\Debug\ref\SpaceShooter2D.dll
+C:\Users\edwin\Dokumente\Code\School\Arduino\SpaceShooter2D\.godot\mono\temp\bin\Debug\SpaceShooter2D.deps.json
+C:\Users\edwin\Dokumente\Code\School\Arduino\SpaceShooter2D\.godot\mono\temp\bin\Debug\SpaceShooter2D.runtimeconfig.json
+C:\Users\edwin\Dokumente\Code\School\Arduino\SpaceShooter2D\.godot\mono\temp\bin\Debug\SpaceShooter2D.dll
+C:\Users\edwin\Dokumente\Code\School\Arduino\SpaceShooter2D\.godot\mono\temp\bin\Debug\SpaceShooter2D.pdb
+C:\Users\edwin\Dokumente\Code\School\Arduino\SpaceShooter2D\.godot\mono\temp\bin\Debug\GodotSharp.dll
+C:\Users\edwin\Dokumente\Code\School\Arduino\SpaceShooter2D\.godot\mono\temp\bin\Debug\GodotSharpEditor.dll
+C:\Users\edwin\Dokumente\Code\School\Arduino\SpaceShooter2D\.godot\mono\temp\bin\Debug\System.IO.Ports.dll
+C:\Users\edwin\Dokumente\Code\School\Arduino\SpaceShooter2D\.godot\mono\temp\bin\Debug\runtimes\linux-arm\native\libSystem.IO.Ports.Native.so
+C:\Users\edwin\Dokumente\Code\School\Arduino\SpaceShooter2D\.godot\mono\temp\bin\Debug\runtimes\linux-arm64\native\libSystem.IO.Ports.Native.so
+C:\Users\edwin\Dokumente\Code\School\Arduino\SpaceShooter2D\.godot\mono\temp\bin\Debug\runtimes\linux-x64\native\libSystem.IO.Ports.Native.so
+C:\Users\edwin\Dokumente\Code\School\Arduino\SpaceShooter2D\.godot\mono\temp\bin\Debug\runtimes\osx-arm64\native\libSystem.IO.Ports.Native.dylib
+C:\Users\edwin\Dokumente\Code\School\Arduino\SpaceShooter2D\.godot\mono\temp\bin\Debug\runtimes\osx-x64\native\libSystem.IO.Ports.Native.dylib
+C:\Users\edwin\Dokumente\Code\School\Arduino\SpaceShooter2D\.godot\mono\temp\bin\Debug\runtimes\unix\lib\net6.0\System.IO.Ports.dll
+C:\Users\edwin\Dokumente\Code\School\Arduino\SpaceShooter2D\.godot\mono\temp\bin\Debug\runtimes\win\lib\net6.0\System.IO.Ports.dll
+C:\Users\edwin\Dokumente\Code\School\Arduino\SpaceShooter2D\.godot\mono\temp\obj\Debug\SpaceShooter2D.csproj.AssemblyReference.cache
+C:\Users\edwin\Dokumente\Code\School\Arduino\SpaceShooter2D\.godot\mono\temp\obj\Debug\SpaceShooter2D.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\edwin\Dokumente\Code\School\Arduino\SpaceShooter2D\.godot\mono\temp\obj\Debug\SpaceShooter2D.AssemblyInfoInputs.cache
+C:\Users\edwin\Dokumente\Code\School\Arduino\SpaceShooter2D\.godot\mono\temp\obj\Debug\SpaceShooter2D.AssemblyInfo.cs
+C:\Users\edwin\Dokumente\Code\School\Arduino\SpaceShooter2D\.godot\mono\temp\obj\Debug\SpaceShooter2D.csproj.CoreCompileInputs.cache
+C:\Users\edwin\Dokumente\Code\School\Arduino\SpaceShooter2D\.godot\mono\temp\obj\Debug\SpaceSho.35A5C8EA.Up2Date
+C:\Users\edwin\Dokumente\Code\School\Arduino\SpaceShooter2D\.godot\mono\temp\obj\Debug\SpaceShooter2D.dll
+C:\Users\edwin\Dokumente\Code\School\Arduino\SpaceShooter2D\.godot\mono\temp\obj\Debug\refint\SpaceShooter2D.dll
+C:\Users\edwin\Dokumente\Code\School\Arduino\SpaceShooter2D\.godot\mono\temp\obj\Debug\SpaceShooter2D.pdb
+C:\Users\edwin\Dokumente\Code\School\Arduino\SpaceShooter2D\.godot\mono\temp\obj\Debug\SpaceShooter2D.genruntimeconfig.cache
+C:\Users\edwin\Dokumente\Code\School\Arduino\SpaceShooter2D\.godot\mono\temp\obj\Debug\ref\SpaceShooter2D.dll

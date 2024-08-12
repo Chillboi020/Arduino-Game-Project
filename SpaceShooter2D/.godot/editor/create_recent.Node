@@ -1,0 +1,14 @@
+Node
+VSeparator
+TextureProgressBar
+HSlider
+ScrollContainer
+AudioStreamPlayer
+OptionButton
+Label
+HBoxContainer
+Button
+VBoxContainer
+HSeparator
+Sprite2D
+ParallaxLayer
